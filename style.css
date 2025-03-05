@@ -45,6 +45,8 @@ html {
         justify-content: center;
         align-items: center;
         background-color: var(--wrapper_background_color);
+        padding-bottom: 20px;
+        color:white;
     }
     
     .container {
@@ -86,4 +88,45 @@ html {
     .cell:hover{
       background-color: #e0e0e0;;
     }
-    
+    .reset{
+      padding:15px;
+      background-color:#0282c3;
+      border-radius: 5px;
+      width:80px;
+      align-items: center;
+      margin:auto;
+      color:white;
+    }
+    .reset:hover{
+      padding:17px;
+      background-color:#0293dc;
+    }
+    button{
+      border: none;
+      margin: 0;
+      padding: 0;
+      width: auto;
+      overflow: visible;
+  
+      background: transparent;
+  
+      /* inherit font & color from ancestor */
+      color: inherit;
+      font: inherit;
+  
+      /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+      line-height: normal;
+  
+      /* Corrects font smoothing for webkit */
+      -webkit-font-smoothing: inherit;
+      -moz-osx-font-smoothing: inherit;
+  
+      /* Corrects inability to style clickable `input` types in iOS */
+      -webkit-appearance: none;
+    }
+    .wrapper{
+      background-image: url("img/1181423.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
